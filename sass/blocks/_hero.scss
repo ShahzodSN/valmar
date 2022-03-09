@@ -5,6 +5,7 @@
     &__top {
         display: flex;
         align-items: center;
+        margin: 0 auto;
         max-width: 1199px;
         margin-bottom: 75px;
         padding: 0;
@@ -44,12 +45,6 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .container {
-        max-width: 1000px;
-        padding-left: 19px;
-        padding-right: 19px;
-        margin: 0 auto;
-
         .hero {
             padding-top: 1px;
             padding-bottom: 140px;
@@ -99,16 +94,9 @@
                 opacity: 0.8;
             }
         }
-    } 
 }
 
 @media only screen and (max-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding-left: 63px;
-        padding-right: 63px;
-        margin: 0 auto;
-    }
 
     .hero {
         padding-bottom: 100px;
