@@ -30,8 +30,7 @@
 
 .hero__bottom {
   max-width: 1036px;
-  margin-left: 92px;
-  margin-right: 72px;
+  margin: 0 auto;
   padding: 59px 14px 60px 25px;
   background: #FFFFFF;
   -webkit-box-shadow: 10px 10px 10px rgba(207, 207, 207, 0.25);
@@ -134,8 +133,7 @@
   }
   .hero__bottom {
     max-width: 572px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin: 0 auto;
     padding: 32px 31px 32px 26px;
     background: #FFFFFF;
     -webkit-box-shadow: 10px 10px 10px rgba(207, 207, 207, 0.25);
@@ -149,6 +147,234 @@
     font-size: 15px;
     line-height: 21px;
     color: #424242;
+    opacity: 0.8;
+  }
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 175px;
+}
+
+.main__header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 0px;
+  text-align: center;
+  margin-bottom: 75px;
+  color: #55A630;
+}
+
+.main__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.main__first .first-right {
+  margin-left: 122px;
+  color: #424242;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.main__first .first-header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 26px;
+}
+
+.main__first .first-text {
+  max-width: 590px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  opacity: 0.8;
+}
+
+.main .active-img {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.main .active-right {
+  margin-left: 0;
+  margin-right: 126px;
+}
+
+.section {
+  background: #ECF9EB;
+  -webkit-box-shadow: 0px 10px 10px rgba(240, 240, 240, 0.25);
+          box-shadow: 0px 10px 10px rgba(240, 240, 240, 0.25);
+  padding: 70px 0 76px;
+}
+
+.section .achievement__header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+  color: #55A630;
+  margin-bottom: 70px;
+}
+
+.section .achievement__box {
+  max-width: 1201px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  margin: 0 auto;
+  padding: 55px 54px 51px 50px;
+}
+
+.section .achievement__floor {
+  text-align: center;
+}
+
+.section .floor__number {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 32px;
+  color: #55A630;
+  margin-bottom: 16px;
+}
+
+.section .floor__text {
+  max-width: 195px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #424242;
+}
+
+.doctors {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.doctors__header {
+  margin-bottom: 75px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 28px;
+  text-align: center;
+  color: #424242;
+}
+
+.doctors__person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.marina__name {
+  margin-top: 17px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #424242;
+}
+
+.marina__job {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #1C1E23;
+  opacity: 0.8;
+}
+
+/*1000*/
+@media only screen and (max-width: 1000px) {
+  .doctors {
+    max-width: 694px;
+    margin: 0 auto;
+  }
+  .doctors__header {
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    color: #424242;
+  }
+  .doctors__person {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .marina__top {
+    margin-top: 85px;
+  }
+  .marina__name {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #424242;
+  }
+  .marina__job {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #1C1E23;
     opacity: 0.8;
   }
 }

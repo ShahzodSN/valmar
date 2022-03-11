@@ -1,0 +1,98 @@
+.doctors {
+    max-width: 1200px; 
+    margin: 0 auto;
+
+    &__header {
+        margin-bottom: 75px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 28px;
+        text-align: center;
+        color: #424242;
+    }
+
+    &__person {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.marina {
+    &__name {
+        margin-top: 17px;
+        margin-bottom: 5px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: #424242;        
+    }
+
+    &__job {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        color: #1C1E23;
+        opacity: 0.8;
+    }
+}
+
+/*1000*/
+@media only screen and (max-width: 1000px) {
+    .doctors {
+        max-width: 694px;
+        margin: 0 auto;
+
+
+        &__header {
+            margin-bottom: 50px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 28px;
+            text-align: center;
+            color: #424242;
+        }
+
+        &__person {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+
+    .marina {
+        &__top {
+            margin-top: 85px;
+        }
+
+        &__name {
+            margin-top: 20px;
+            margin-bottom: 2px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+            color: #424242;            
+        }
+
+        &__job {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 23px;
+            color: #1C1E23;
+            opacity: 0.8;
+        }
+    }
+}

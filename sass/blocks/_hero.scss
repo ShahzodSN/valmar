@@ -25,8 +25,7 @@
  
     &__bottom {
         max-width: 1036px;
-        margin-left: 92px;
-        margin-right: 72px;
+        margin: 0 auto;
         padding: 59px 14px 60px 25px;
         background: #FFFFFF;
         box-shadow: 10px 10px 10px rgba(207, 207, 207, 0.25);
@@ -129,8 +128,7 @@
 
         &__bottom {
             max-width: 572px;
-            margin-left: 35px;
-            margin-right: 35px;
+            margin: 0 auto;
             padding: 32px 31px 32px 26px;
             background: #FFFFFF;
             box-shadow: 10px 10px 10px rgba(207, 207, 207, 0.25);
