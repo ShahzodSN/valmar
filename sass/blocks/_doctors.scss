@@ -21,6 +21,11 @@
 }
 
 .marina {
+    &__image {
+        width: 285px;
+        height: 380px;
+    }
+
     &__name {
         margin-top: 17px;
         margin-bottom: 5px;
@@ -70,6 +75,11 @@
     }
 
     .marina {
+        &__image {
+            width: 285px;
+            height: 380px;
+        }
+
         &__top {
             margin-top: 85px;
         }
@@ -91,6 +101,181 @@
             font-weight: 400;
             font-size: 15px;
             line-height: 23px;
+            color: #1C1E23;
+            opacity: 0.8;
+        }
+    }
+}
+
+/*768*/
+@media only screen and (max-width:768px) {
+    .doctors {
+        max-width: 643px;
+        margin: 0 auto;
+
+        &__header {
+            margin-bottom: 50px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 28px;
+            text-align: center;
+            color: #424242;
+        }
+
+        &__person {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+
+    .marina {
+        &__image {
+            width: 285px;
+            height: 380px;
+        }
+
+        &__top {
+            margin-top: 71px;
+        }
+
+        &__name {
+            margin-top: 17px;
+            margin-bottom: 5px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+            color: #424242;                
+        }
+
+        &__job {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 23px;
+            color: #1C1E23;
+            opacity: 0.8;
+        }
+    }
+}
+
+/*480*/
+@media only screen and (max-width:480) {
+    .doctors {
+        max-width: 360px;
+        margin: 0 auto;
+
+        &__header {
+            margin-bottom: 40px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            color: #424242;
+        }
+
+        &__person {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+
+    .marina {
+        &__image {
+            width: 158px;
+            height: 211px;
+        }
+
+        &__top {
+            margin-top: 40px;
+        }
+
+        &__name {
+            margin-top: 8px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 26px;
+            color: #424242;            
+        }
+
+        &__job {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 23px;
+            color: #1C1E23;
+            opacity: 0.8;
+        }
+    }
+}
+
+/*320*/
+@media only screen and (max-width:320px) {
+    .doctors {
+        max-width: 180px;
+        margin: 0 auto;
+
+        &__header {
+            margin: 0;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            color: #424242;
+        }
+
+        &__person {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
+    .marina {
+        margin-top: 44px;
+
+        &__image {
+            width: 180px;
+            height: 189px;
+        }
+
+        &__top {
+            margin-top: 0;
+        }
+
+        &__name {
+            margin-top: 14px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 26px;
+            text-align: center;
+            color: #424242;
+        }
+
+        &__job {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 23px;
+            text-align: center;
             color: #1C1E23;
             opacity: 0.8;
         }

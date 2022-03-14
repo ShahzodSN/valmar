@@ -8,6 +8,7 @@
     <title>valmar</title>
 </head>
 <body>
+    
     <div class="container">
         <div class="hero">
             <div class="hero__top">
@@ -15,7 +16,13 @@
                     Учебный центр эстетической косметологии VAlmari
                 </div>
 
-                <img class="hero__image" src="./image/hero-img.png" width="589" height="452" alt="">
+                <picture>
+                    <source media="(max-width: 320px)" srcset="./image/i5.png">
+                    <source media="(max-width: 480px)" srcset="./image/i4.png">
+                    <source media="(max-width: 768px)" srcset="./image/i3.png">
+                    <source media="(max-width: 1000px)" srcset="./image/i2.png">
+                    <img src="./image/i1.png" alt="Rasmlar">
+                </picture>
             </div>
 
             <div class="hero__bottom">
@@ -111,7 +118,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
     <div class="container">
         <div class="doctors">
@@ -119,27 +126,124 @@
             
             <div class="doctors__person">
                 <div class="marina">
-                    <img class="marina__img" src="./image/marina.png" width="285px" height="380px" alt="marina">
+                    <img class="marina__image" src="./image/marina.png" alt="marina">
                     <div class="marina__name">Марина Спивак</div>
                     <div class="marina__job">Главный тренер</div>
                 </div>
                 <div class="marina">
-                    <img class="marina__img" src="./image/yelena.png" width="285px" height="380px" alt="yelena">
+                    <img class="marina__image" src="./image/yelena.png" alt="yelena">
                     <div class="marina__name">Елена Белогурова</div>
                     <div class="marina__job">Тренер </div>
                 </div>
                 <div class="marina">
-                    <img class="marina__img marina__top" src="./image/alina.png" width="285px" height="380px" alt="alina">
+                    <img class="marina__image marina__top" src="./image/alina.png" alt="alina">
                     <div class="marina__name">Алина Ядчишина</div>
                     <div class="marina__job">Тренер</div>
                 </div>
                 <div class="marina">
-                    <img class="marina__img marina__top" src="./image/yulya.png" width="285px" height="380px" alt="yulya">
+                    <img class="marina__image marina__top" src="./image/yulya.png" alt="yulya">
                     <div class="marina__name">Алина Ядчишина</div>
                     <div class="marina__job">Руководитель сети клиник LAZERINI</div>
                 </div>
             </div>
         </div>
     </div>
+
+    <section class="section">
+        <div class="otzivi__header">Отзывы</div>
+
+        <div class="container">
+            <div class="otzivi">
+                <div class="otzivi__about">
+                    <div class="otzivi__left">
+                        <div class="otzivi__name">Ирина Бубличенко</div>
+                        <div class="otzivi__data">15.09.2020</div>
+                    </div>
+                    <div class="otzivi__right">
+                        Вчера была на карбокситерапии первый раз. Сомневалась в эффективности процедуры и очень зря! Цвет лица выровнялся и кожа подтянулась, воспаления стали не такими заметными. Эффект был сразу после процедуры и я планирую пройти весь курс. Алиночка профессионал своего дела и отличный собеседник, всегда рекомендует самые эффективные процедуры.
+                    </div>
+                </div>
+
+                <div class="otzivi__about">
+                    <div class="otzivi__left">
+                        <div class="otzivi__name">Ирина Бубличенко</div>
+                        <div class="otzivi__data">15.09.2020</div>
+                    </div>
+                    <div class="otzivi__right">
+                        Вчера была на карбокситерапии первый раз. Сомневалась в эффективности процедуры и очень зря! Цвет лица выровнялся и кожа подтянулась, воспаления стали не такими заметными. Эффект был сразу после процедуры и я планирую пройти весь курс. Алиночка профессионал своего дела и отличный собеседник, всегда рекомендует самые эффективные процедуры.
+                    </div>
+                </div>
+
+                <div class="otzivi__about">
+                    <div class="otzivi__left">
+                        <div class="otzivi__name">Ирина Бубличенко</div>
+                        <div class="otzivi__data">15.09.2020</div>
+                    </div>
+                    <div class="otzivi__right">
+                        Вчера была на карбокситерапии первый раз. Сомневалась в эффективности процедуры и очень зря! Цвет лица выровнялся и кожа подтянулась, воспаления стали не такими заметными. Эффект был сразу после процедуры и я планирую пройти весь курс. Алиночка профессионал своего дела и отличный собеседник, всегда рекомендует самые эффективные процедуры.
+                    </div>
+                </div>
+
+                <div class="otzivi__about">
+                    <div class="otzivi__left">
+                        <div class="otzivi__name">Ирина Бубличенко</div>
+                        <div class="otzivi__data">15.09.2020</div>
+                    </div>
+                    <div class="otzivi__right">
+                        Вчера была на карбокситерапии первый раз. Сомневалась в эффективности процедуры и очень зря! Цвет лица выровнялся и кожа подтянулась, воспаления стали не такими заметными. Эффект был сразу после процедуры и я планирую пройти весь курс. Алиночка профессионал своего дела и отличный собеседник, всегда рекомендует самые эффективные процедуры.
+                    </div>
+                </div>
+
+                <a href="#" class="otzivi__link">Оставить отзыв</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <iframe class="footer__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39851.100382308556!2d-73.99994350229943!3d40.73167587593167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2z0K3QvNC_0LDQudGALdGB0YLQtdC50YIt0LHQuNC70LTQuNC90LM!5e0!3m2!1sru!2s!4v1647234196554!5m2!1sru!2s" width="756" height="776" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="footer__right">
+            <div class="footer__link">
+                <img class="footer__logo" src="./image/logo-single.svg" width="74px" height="74px" alt="logo">
+            </div>
+            <address class="footer__adress">
+                <a href="tel:0800508622" class="footer__tel">0 (800) 508-622</a>
+                <div class="footer__text">Харьков, Клочковская, д. 3</div>
+            </address>
+
+            <div class="footer__lists">
+                <div class="footer__list">
+                    <a href="" class="footer__item">Курсы обучения</a>
+                    <a href="" class="footer__item">Вебинары</a>
+                    <a href="" class="footer__item">Видео-уроки</a>
+                    <a href="" class="footer__item">Прайс</a>
+                    <a href="" class="footer__item">Рассписание</a>
+                </div>
+
+                <div class="footer__list">
+                    <a href="" class="footer__item">Акции</a>
+                    <a href="" class="footer__item">О нас</a>
+                    <a href="" class="footer__item">Блог</a>
+                    <a href="" class="footer__item">Магазин</a>
+                </div>
+            </div>
+
+            <div class="footer__socials">
+                <a href="" class="footer__fb">
+                    <svg class="footer__icon" width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M34.6667 0H4.33333C1.93917 0 0 1.93917 0 4.33333V34.6667C0 37.0608 1.93917 39 4.33333 39H20.8455V23.9178H15.769V18.0137H20.8455V13.6695C20.8455 8.63417 23.9243 5.889 28.418 5.889C29.9325 5.88467 31.4448 5.96267 32.9507 6.1165V11.3815H29.8567C27.4083 11.3815 26.9317 12.5385 26.9317 14.2458V18.005H32.7817L32.0212 23.9092H26.897V39H34.6667C37.0608 39 39 37.0608 39 34.6667V4.33333C39 1.93917 37.0608 0 34.6667 0Z" fill="white"/>
+                    </svg>
+                </a>
+
+                <a href="" class="footer__ins">
+                    <svg class="footer__icon" width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.8333 0C4.85117 0 0 4.85117 0 10.8333V28.1667C0 34.1488 4.85117 39 10.8333 39H28.1667C34.1488 39 39 34.1488 39 28.1667V10.8333C39 4.85117 34.1488 0 28.1667 0H10.8333ZM32.5 4.33333C33.696 4.33333 34.6667 5.304 34.6667 6.5C34.6667 7.696 33.696 8.66667 32.5 8.66667C31.304 8.66667 30.3333 7.696 30.3333 6.5C30.3333 5.304 31.304 4.33333 32.5 4.33333ZM19.5 8.66667C25.4822 8.66667 30.3333 13.5178 30.3333 19.5C30.3333 25.4822 25.4822 30.3333 19.5 30.3333C13.5178 30.3333 8.66667 25.4822 8.66667 19.5C8.66667 13.5178 13.5178 8.66667 19.5 8.66667ZM19.5 13C17.7761 13 16.1228 13.6848 14.9038 14.9038C13.6848 16.1228 13 17.7761 13 19.5C13 21.2239 13.6848 22.8772 14.9038 24.0962C16.1228 25.3152 17.7761 26 19.5 26C21.2239 26 22.8772 25.3152 24.0962 24.0962C25.3152 22.8772 26 21.2239 26 19.5C26 17.7761 25.3152 16.1228 24.0962 14.9038C22.8772 13.6848 21.2239 13 19.5 13Z" fill="white"/>
+                    </svg>                        
+                </a>
+            </div>
+
+            <div class="footer__footer">Политика конфиденциальности</div>
+        </div>
+    </footer>
 </body>
 </html>
